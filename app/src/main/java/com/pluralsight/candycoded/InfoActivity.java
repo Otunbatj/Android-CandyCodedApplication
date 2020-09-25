@@ -37,15 +37,7 @@ public class InfoActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         if (v.getId() == R.id.text_view_address) {
-            String address = tvAddress.getText().toString().trim();
-            Uri gmmIntentUri = Uri.parse("geo:0,0?q=" + Uri.encode(address));
-            Intent gmmIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-            if (gmmIntent.resolveActivity(getPackageManager()) != null) {
-                startActivity(gmmIntent);
-            } else {
-                //No suitable application to handle action
-                Toast.makeText(getApplicationContext(), R.string.no_suitable_activity, Toast.LENGTH_SHORT).show();
-            }
+
         } else if (v.getId() == R.id.text_view_phone) {
             String phoneNumber = tvPhone.getText().toString().trim();
             Uri phoneUri = Uri.parse(String.format("tel:%s", phoneNumber));
@@ -56,6 +48,17 @@ public class InfoActivity extends AppCompatActivity implements View.OnClickListe
                 //No suitable application to handle action
                 Toast.makeText(getApplicationContext(), R.string.no_suitable_activity, Toast.LENGTH_SHORT).show();
             }
+        }
+    }
+
+    public void createMapIntent(View view){
+        Intent mapIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=618 E South St Orlando, FL 32801"));
+        mapIntent.setPackage("com.google.android.apps.maps");
+        if (mapIntent.resolveActivity(getPackageManager()) != null) {
+            startActivity(mapIntent);
+        } else {
+            //No suitable application to handle action
+            Toast.makeText(getApplicationContext(), R.string.no_suitable_activity, Toast.LENGTH_SHORT).show();
         }
     }
 }
