@@ -36,21 +36,16 @@ public class InfoActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        if (v.getId() == R.id.text_view_address) {
 
-        } else if (v.getId() == R.id.text_view_phone) {
-            String phoneNumber = tvPhone.getText().toString().trim();
-            Uri phoneUri = Uri.parse(String.format("tel:%s", phoneNumber));
-            Intent phoneIntent = new Intent(Intent.ACTION_DIAL, phoneUri);
-            if (phoneIntent.resolveActivity(getPackageManager()) != null) {
-                startActivity(phoneIntent);
-            } else {
-                //No suitable application to handle action
-                Toast.makeText(getApplicationContext(), R.string.no_suitable_activity, Toast.LENGTH_SHORT).show();
-            }
-        }
     }
 
+    public void createPhoneIntent(View view){
+        Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
+        Uri uri = Uri.parse(String.format("tel:0123456789"));
+//        Uri uri = Uri.parse(String.format("tel:%s", tvPhone.getText().toString().trim()));
+        phoneIntent.setData(uri);
+        startActivity(phoneIntent);
+    }
     public void createMapIntent(View view){
         Intent mapIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=618 E South St Orlando, FL 32801"));
         mapIntent.setPackage("com.google.android.apps.maps");
