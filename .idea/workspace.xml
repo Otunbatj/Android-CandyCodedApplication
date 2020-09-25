@@ -207,31 +207,31 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="570" y="304" key="AndroidCreateXmlResourceDialog/0.0.1440.900@0.0.1440.900" timestamp="1601030415530" />
-    <state width="1400" height="238" key="GridCell.Tab.0.bottom" timestamp="1601033193368">
-      <screen x="0" y="23" width="1440" height="835" />
-    </state>
-    <state width="1400" height="238" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1601033118264" />
-    <state width="1400" height="238" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1601033193368" />
-    <state width="1400" height="238" key="GridCell.Tab.0.center" timestamp="1601033193363">
-      <screen x="0" y="23" width="1440" height="835" />
-    </state>
-    <state width="1400" height="238" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1601033118261" />
-    <state width="1400" height="238" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1601033193363" />
-    <state width="1400" height="238" key="GridCell.Tab.0.left" timestamp="1601033193357">
-      <screen x="0" y="23" width="1440" height="835" />
-    </state>
-    <state width="1400" height="238" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1601033118259" />
-    <state width="1400" height="238" key="GridCell.Tab.0.left/0.0.1440.900@0.23.1440.835" timestamp="1601032826597" />
-    <state width="1400" height="238" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1601033193357" />
-    <state width="1400" height="238" key="GridCell.Tab.0.right" timestamp="1601033193364">
-      <screen x="0" y="23" width="1440" height="835" />
-    </state>
-    <state width="1400" height="238" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1601033118262" />
-    <state width="1400" height="238" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1601033193364" />
-    <state width="311" height="80" key="javadoc.popup.new" timestamp="1601033180075">
+    <state width="1400" height="196" key="GridCell.Tab.0.bottom" timestamp="1601033340394">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="311" height="80" key="javadoc.popup.new/0.0.1440.900@0.0.1440.900" timestamp="1601033180075" />
+    <state width="1400" height="196" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1601033340394" />
+    <state width="1400" height="238" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1601033193368" />
+    <state width="1400" height="196" key="GridCell.Tab.0.center" timestamp="1601033340392">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1400" height="196" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1601033340392" />
+    <state width="1400" height="238" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1601033193363" />
+    <state width="1400" height="196" key="GridCell.Tab.0.left" timestamp="1601033340391">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1400" height="196" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1601033340391" />
+    <state width="1400" height="238" key="GridCell.Tab.0.left/0.0.1440.900@0.23.1440.835" timestamp="1601032826597" />
+    <state width="1400" height="238" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1601033193357" />
+    <state width="1400" height="196" key="GridCell.Tab.0.right" timestamp="1601033340393">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1400" height="196" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1601033340393" />
+    <state width="1400" height="238" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1601033193364" />
+    <state width="311" height="80" key="javadoc.popup.new" timestamp="1601033581706">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="311" height="80" key="javadoc.popup.new/0.0.1440.900@0.0.1440.900" timestamp="1601033581706" />
     <state width="311" height="80" key="javadoc.popup.new/0.23.1440.835@0.23.1440.835" timestamp="1601030735656" />
   </component>
 </project>
